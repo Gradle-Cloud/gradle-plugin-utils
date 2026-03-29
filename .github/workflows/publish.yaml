@@ -26,7 +26,7 @@ jobs:
       # Protect from putting custom jar as a gradle wrapper
       # https://github.com/gradle/actions/tree/main/wrapper-validation
       - name: Validate Gradle wrapper
-        uses: gradle/actions/wrapper-validation@v5
+        uses: gradle/actions/wrapper-validation@v6
 
       # https://github.com/marketplace/actions/setup-java-jdk
       - name: Set up JDK 17
@@ -42,7 +42,7 @@ jobs:
         with:
           # disable cache for publication. We build from scratch here, so let's avoid having a theoretical vulnerability when cache entry was put in a declined PR, however reused by this build
           cache-disabled: true
-        uses: gradle/actions/setup-gradle@v5
+        uses: gradle/actions/setup-gradle@v6
 
       # Build and publish the project by simply running the command line
       - name: Publish the project
