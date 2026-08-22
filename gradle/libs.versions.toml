@@ -1,7 +1,7 @@
 [versions]
 assertk = "0.28.1"
 junit = "6.0.3"
-kotest = "5.9.1"
+kotest = "6.2.4"
 mockk = "1.14.9"
 reflections = "0.10.2"
 spek2 = "2.0.19"
@@ -14,7 +14,7 @@ junit-jupiter-params= { module = "org.junit.jupiter:junit-jupiter-params", versi
 # is needed because of https://github.com/gradle/gradle/issues/34512#issuecomment-3149703490
 junitEngine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "junit" }
 
-kotest-api = { module = "io.kotest:kotest-framework-api", version.ref = "kotest" }
+kotest-framework = { module = "io.kotest:kotest-framework-engine", version.ref = "kotest" }
 kotest-runner = { module = "io.kotest:kotest-runner-junit5", version.ref = "kotest" }
 kotest-property = { module = "io.kotest:kotest-property", version.ref = "kotest" }
 
