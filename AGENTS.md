@@ -1,0 +1,1 @@
+* This is helper project for gradle-helm-plugin with intent to share modules for Gradle unit testing.
