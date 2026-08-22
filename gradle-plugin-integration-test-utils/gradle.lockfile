@@ -1,6 +1,7 @@
 # This is a Gradle generated file for dependency locking.
 # Manual edits can break the build and are not advised.
 # This file is expected to be part of source control.
+# To regenerate this file, run: ./gradlew :gradle-plugin-integration-test-utils:dependencies --write-locks
 com.google.code.findbugs:jsr305:3.0.2=runtimeClasspath,testRuntimeClasspath
 org.javassist:javassist:3.28.0-GA=runtimeClasspath,testRuntimeClasspath
 org.reflections:reflections:0.10.2=runtimeClasspath,testRuntimeClasspath

@@ -1,6 +1,7 @@
 # This is a Gradle generated file for dependency locking.
 # Manual edits can break the build and are not advised.
 # This file is expected to be part of source control.
+# To regenerate this file, run: ./gradlew :gradle-plugin-utils:dependencies --write-locks
 com.github.curious-odd-man:rgxgen:2.0=testRuntimeClasspath
 community.flock.kotlinx.rgxgen:kotlin-rgxgen-jvm:0.0.6=testRuntimeClasspath
 community.flock.kotlinx.rgxgen:kotlin-rgxgen:0.0.6=testRuntimeClasspath
